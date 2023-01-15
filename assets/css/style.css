@@ -93,10 +93,14 @@ header {
   display: flex;
   flex-direction: column;
   height: 370px;
-  justify-content: space-evenly;
   margin-left: 170px;
+  justify-content: center;
+  align-items: center;
 }
-
+.titolo p {
+  margin-bottom: 60px;
+  margin-top: 15px;
+}
 .MMM {
   width: auto;
   height: auto;
