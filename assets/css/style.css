@@ -10,11 +10,12 @@ body {
   font-family: "Roboto";
 }
 main {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-nav {
+#barra {
   font-family: "spectral";
   margin: auto;
   padding: 15px;
@@ -26,7 +27,20 @@ nav {
   position: sticky;
   top: 0;
   z-index: 5;
+  animation: myFunction 1s linear;
 }
+
+@keyframes myFunction {
+  from {
+    background-color: #ffc017;
+  }
+
+  to {
+    transform: translateY(100px);
+    background-color: white;
+  }
+}
+
 .logo {
   width: 130px;
   margin-left: 15px;
