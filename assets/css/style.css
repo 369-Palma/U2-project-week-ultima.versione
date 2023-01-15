@@ -102,6 +102,8 @@ h1 {
   flex-direction: column;
   /* height: 300px; */
   justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 160px;
 }
 #intestazione {
   display: flex;
@@ -113,6 +115,7 @@ h1 {
 }
 .carta {
   display: flex;
+  justify-content: center;
 }
 .autore {
   display: flex;
@@ -132,6 +135,10 @@ h1 {
 #riga1,
 #riga2 {
   display: flex;
+  justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
 }
 #parte1 {
   display: flex;
@@ -154,6 +161,7 @@ aside {
 
 #ultima-sezione {
   width: 80%;
+  margin-left: 160px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -207,13 +215,14 @@ aside {
 .buttons {
   margin: 10px 0px;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 #linea1,
 #linea2,
 #linea3 {
   margin: 15px;
   display: flex;
+  flex-direction: column;
 }
 #sopra span,
 #sotto span {
