@@ -148,12 +148,20 @@ h1 {
 .autore img {
   width: 15px;
   height: 15px;
+  border-radius: 3px;
+  margin-right: 10px;
 }
 #tondo {
   border-radius: 15px;
 }
 .numero {
-  display: flex;
+  padding-top: 10px;
+  width: 30px;
+  transform: scale(2);
+  margin-right: 30px;
+  opacity: 0.2;
+  font-weight: 500;
+  height: 30px;
 }
 .numero span {
   flex-grow: 5;
@@ -260,6 +268,7 @@ aside {
 }
 
 #links {
+  margin-left: 90px;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -284,7 +293,7 @@ aside {
 }
 
 .buttons {
-  margin: 10px 0px;
+  margin-left: 90px;
   display: flex;
   /* flex-wrap: wrap; */
 }
@@ -309,7 +318,9 @@ aside {
   text-decoration: none;
   color: grey;
 }
-
+#titolo {
+  margin-left: 115px;
+}
 /* #intestazione {
   display: flex;
   margin-right: 1em;
