@@ -15,7 +15,7 @@ main {
   flex-direction: column;
 }
 
-#barra {
+nav {
   font-family: "spectral";
   margin: auto;
   padding: 15px;
@@ -126,6 +126,10 @@ h1 {
   display: flex;
   align-items: center;
 }
+#intestazione img {
+  width: 15px;
+  height: 15px;
+}
 .cards {
   display: flex;
   flex-direction: column;
@@ -137,6 +141,13 @@ h1 {
 .autore {
   display: flex;
   align-items: center;
+}
+.autore img {
+  width: 15px;
+  height: 15px;
+}
+#tondo {
+  border-radius: 15px;
 }
 .numero {
   display: flex;
