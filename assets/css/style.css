@@ -137,6 +137,7 @@ h1 {
 .carta {
   display: flex;
   justify-content: center;
+  margin-right: 175px;
 }
 .autore {
   display: flex;
@@ -167,6 +168,16 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   margin-top: 35px;
+}
+
+#riga2 {
+  margin-bottom: 15px;
+}
+.numero {
+  transform: scale(2);
+  margin-right: 30px;
+  opacity: 0.2;
+  font-weight: 500;
 }
 #parte1 {
   display: flex;
@@ -199,7 +210,13 @@ aside {
   display: flex;
   flex-direction: column;
 }
-
+.info {
+  display: flex;
+  align-items: center;
+}
+.info img {
+  margin-left: 50px;
+}
 .extra-info {
   display: flex;
   justify-content: space-between;
