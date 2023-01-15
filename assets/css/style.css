@@ -27,20 +27,25 @@ nav {
   position: sticky;
   top: 0;
   z-index: 5;
-  animation: myFunction 1s linear;
+  /* animation: myFunction 1.5s linear 1; */
 }
 
-@keyframes myFunction {
+.navBar {
+  background-color: white;
+}
+
+/* @keyframes myFunction {
   from {
     background-color: #ffc017;
   }
 
   to {
-    transform: translateY(100px);
+    /* transform: translateY(100px); */
+
     background-color: white;
   }
 }
-
+ */
 .logo {
   width: 130px;
   margin-left: 15px;

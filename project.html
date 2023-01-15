@@ -14,8 +14,8 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <nav id="barra" onscroll="myFunction()">
+  <body onscroll="myFunction()">
+    <nav id="barra">
       <div class="logo colonna">
         <img src="./assets/imgs/svg/logo.svg" alt="logo di Medium" />
       </div>
@@ -9759,11 +9759,49 @@
       </div>
     </main>
     <script>
-      const padre = document.getElementsByName("body");
+      /* const padre = document.getElementsByName("body");
+        const nav = document.getElementById("barra");
+        nav.classList.add("nav");
+        nav.onscroll = nav.aggiungiclassSelect;
+        padre.appendChild(nav); */
+
+      /*  window.onscroll = function () {
+          myFunction();
+        };
+
+        function myFunction() {
+          if (
+            document.html.scrollTop > 150 ||
+            document.documentElement.scrollTop > 150
+          ) {
+            document.getElementById("barra").classList.add("barra");
+          } else {
+            document.getElementsByClassName("nav").classList.add("nav");
+          }
+        } */
+
+      /*  init() {
+      let self = this;
+      window.onscroll = function() {
+        if (
+            document.html.scrollTop > 360 ||
+            document.documentElement.scrollTop > 360
+          ) {
+            document.getElementById("barra").classList.add("barra");
+          }
+          /* self.myFunction(); */
+      /*  }
+      };  */
+
       const nav = document.getElementById("barra");
-      nav.classList.add("nav");
-      nav.onscroll = nav.aggiungiclassSelect;
-      padre.appendChild(nav);
+
+      function myFunction() {
+        if (window.scrollY >= 300) {
+          nav.classList.add("navBar");
+        } else {
+          nav.classList.remove("navBar");
+        }
+      }
     </script>
   </body>
 </html>
