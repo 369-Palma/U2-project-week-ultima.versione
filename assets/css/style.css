@@ -115,14 +115,16 @@ h1 {
   justify-items: flex-start;
 }
 #top {
+  height: 290px;
   display: flex;
   flex-direction: column;
-  /* height: 300px; */
-  justify-content: space-around;
   align-items: flex-start;
   margin-left: 160px;
+  justify-content: space-evenly;
 }
+
 #intestazione {
+  margin-top: 15px;
   display: flex;
   align-items: center;
 }
