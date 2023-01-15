@@ -158,8 +158,10 @@ h1 {
   align-self: center;
 }
 .text {
+  height: 80px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 #riga1,
 #riga2 {
