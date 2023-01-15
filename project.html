@@ -9399,7 +9399,7 @@
                   <img src="./assets/imgs/image07.jpeg" alt="foto autore" />
                   <span> <small>Robert Roy Brit</small></span>
                 </div>
-                <div class="titolo-descrizione">
+                <div class="titolo-article">
                   <h3>How Old is Old?</h3>
                   <p>
                     What we consider “old” changes dramatically with age, and
@@ -9444,7 +9444,7 @@
                   <img src="./assets/imgs/image09.jpeg" alt="foto autore" />
                   <span> <small>Taru Anniina Liikanen</small></span>
                 </div>
-                <div class="titolo-descrizione">
+                <div class="titolo-article">
                   <h3>Is Taylor Swift Allowed to Speak About Fat?</h3>
                   <p>
                     Can you speak about your trauma if you don't look
@@ -9489,7 +9489,7 @@
                   <img src="./assets/imgs/image11.jpeg" alt="foto autore" />
                   <span> <small>David Rodenas, Ph. D.</small></span>
                 </div>
-                <div class="titolo-descrizione">
+                <div class="titolo-article">
                   <h3>Don't Screw Up, You Will Be Found Guilty</h3>
                   <p>
                     Software Engineer, yours is the right to produce
@@ -9535,7 +9535,7 @@
                   <img src="./assets/imgs/image13.png" alt="foto autore" />
                   <span> <small>Microsoft Design</small></span>
                 </div>
-                <div class="titolo-descrizione">
+                <div class="titolo-article">
                   <h3>Leave No Trace</h3>
                   <p>
                     How product designers can break from the status quo and help
@@ -9577,7 +9577,7 @@
                   <img src="./assets/imgs/image15.jpeg" alt="foto autore" />
                   <span> <small>Scott H. Young</small></span>
                 </div>
-                <div class="titolo-descrizione">
+                <div class="titolo-article">
                   <h3>
                     Variability, Not Repetition, is the Key to <br />
                     Mastery
@@ -9627,7 +9627,7 @@
                   <img src="./assets/imgs/image17.png" alt="foto autore" />
                   <span> <small>Paul A. DeStefanoin Human Parts</small></span>
                 </div>
-                <div class="titolo-descrizione">
+                <div class="titolo-article">
                   <h3>What I Overheard as an Escape Room Actor</h3>
                   <p>
                     Lock a group of people in a room and you'll witness some
@@ -9672,7 +9672,7 @@
                   <img src="./assets/imgs/image19.jpeg" alt="foto autore" />
                   <span> <small>Kim Scott</small></span>
                 </div>
-                <div class="titolo-descrizione">
+                <div class="titolo-article">
                   <h3>
                     6 Steps for Setting Measurable Goals to Avoid
                     <br />“Productivity Paranoia”
@@ -9759,46 +9759,14 @@
       </div>
     </main>
     <script>
-      /* const padre = document.getElementsByName("body");
-        const nav = document.getElementById("barra");
-        nav.classList.add("nav");
-        nav.onscroll = nav.aggiungiclassSelect;
-        padre.appendChild(nav); */
-
-      /*  window.onscroll = function () {
-          myFunction();
-        };
-
-        function myFunction() {
-          if (
-            document.html.scrollTop > 150 ||
-            document.documentElement.scrollTop > 150
-          ) {
-            document.getElementById("barra").classList.add("barra");
-          } else {
-            document.getElementsByClassName("nav").classList.add("nav");
-          }
-        } */
-
-      /*  init() {
-      let self = this;
-      window.onscroll = function() {
-        if (
-            document.html.scrollTop > 360 ||
-            document.documentElement.scrollTop > 360
-          ) {
-            document.getElementById("barra").classList.add("barra");
-          }
-          /* self.myFunction(); */
-      /*  }
-      };  */
-
       const nav = document.getElementById("barra");
-
+      const start = document.getElementById("black");
       function myFunction() {
         if (window.scrollY >= 300) {
+          start.classList.add("green");
           nav.classList.add("navBar");
         } else {
+          start.classList.remove("green");
           nav.classList.remove("navBar");
         }
       }
